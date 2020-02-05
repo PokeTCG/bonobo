@@ -1,0 +1,52 @@
+@keyframes bonobo-highlight {
+  0% {
+    background-color: transparent;
+    box-shadow: 0 0 4px 2px transparent;
+  }
+
+  50% {
+    background-color: #fdffa7;
+    box-shadow: 0 0 4px 2px #ffbf00;
+  }
+
+  100% {
+    background-color: transparent;
+    box-shadow: 0 0 4px 2px transparent;
+  }
+}
+
+.bonobo {
+  animation-name: bonobo-highlight;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  background-color: transparent;
+  background-image: url('chrome-extension://__MSG_@@extension_id__/monkey.png') !important;
+  background-position: 8px 50% !important;
+  background-repeat: no-repeat !important;
+  background-size: 32px !important;
+  padding: 4px 12px 4px 48px !important;
+}
+
+.bonobo-link-wrapper {
+  display: block !important;
+}
+
+.bonobo-link {
+  background-image: url('chrome-extension://__MSG_@@extension_id__/monkey.png') !important;
+  background-position: 0 1px !important;
+  background-repeat: no-repeat !important;
+  background-size: 13px !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  font-size: 13px !important;
+  line-height: 15px !important;
+  margin-top: 4px !important;
+  padding-left: 18px !important;
+}
+
+.bonobo-link[data-clicked] {
+  color: inherit !important;
+  cursor: text !important;
+  outline: none !important;
+  text-decoration: none !important;
+}

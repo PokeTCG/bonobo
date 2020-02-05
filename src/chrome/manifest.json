@@ -1,0 +1,71 @@
+{
+  "name": "Bonobo",
+  "version": "1.0",
+  "description": "An eBay BIN/OBO best offer reveal tool.",
+  "manifest_version": 2,
+  "icons": {
+    "64": "monkey.png"
+  },
+  "permissions": [
+    "https://*.ebay.com/*",
+    "https://*.ebay.com.au/*",
+    "https://*.ebay.at/*",
+    "https://*.ebay.be/*",
+    "https://*.ebay.ca/*",
+    "https://*.ebay.cn/*",
+    "https://*.ebay.fr/*",
+    "https://*.ebay.de/*",
+    "https://*.ebay.com.hk/*",
+    "https://*.ebay.in/*",
+    "https://*.ebay.ie/*",
+    "https://*.ebay.it/*",
+    "https://*.ebay.co.jp/*",
+    "https://*.ebay.com.my/*",
+    "https://*.ebay.nl/*",
+    "https://*.ebay.ph/*",
+    "https://*.ebay.pl/*",
+    "https://*.ebay.com.sg/*",
+    "https://*.ebay.es/*",
+    "https://*.ebay.se/*",
+    "https://*.ebay.ch/*",
+    "https://*.ebay.com.tw/*",
+    "https://*.ebay.co.th/*",
+    "https://*.ebay.co.uk/*",
+    "https://*.ebay.vn/*",
+    "tabs"
+  ],
+  "content_scripts": [{
+    "matches": [
+      "https://*.ebay.com/*",
+      "https://*.ebay.com.au/*",
+      "https://*.ebay.at/*",
+      "https://*.ebay.be/*",
+      "https://*.ebay.ca/*",
+      "https://*.ebay.cn/*",
+      "https://*.ebay.fr/*",
+      "https://*.ebay.de/*",
+      "https://*.ebay.com.hk/*",
+      "https://*.ebay.in/*",
+      "https://*.ebay.ie/*",
+      "https://*.ebay.it/*",
+      "https://*.ebay.co.jp/*",
+      "https://*.ebay.com.my/*",
+      "https://*.ebay.nl/*",
+      "https://*.ebay.ph/*",
+      "https://*.ebay.pl/*",
+      "https://*.ebay.com.sg/*",
+      "https://*.ebay.es/*",
+      "https://*.ebay.se/*",
+      "https://*.ebay.ch/*",
+      "https://*.ebay.com.tw/*",
+      "https://*.ebay.co.th/*",
+      "https://*.ebay.co.uk/*",
+      "https://*.ebay.vn/*"
+    ],
+    "css": ["bonobo.css"],
+    "js": ["bonobo.js"]
+  }],
+  "web_accessible_resources": [
+    "monkey.png"
+  ]
+}
