@@ -1,9 +1,19 @@
 # bonobo
-An eBay BIN/OBO best offer price reveal extension.
+An eBay BIN/OBO best offer price revealing extension.
+
+---
 
 This is available for free on the Chrome App Store: https://chrome.google.com/webstore/detail/bonobo/feapjfnajfjkpbpfamlcfkmkockngiad
 
 ![https://i.imgur.com/Xhmj8qC.png](https://i.imgur.com/Xhmj8qC.png)
+
+---
+
+### Motivation
+
+eBay hides away the actual price realised on listings where the seller accepted an offer on the item. This means that if an item was listed for $1,000 but actually sold to a buyer who only offered $5, eBay would by default show the item as having sold for $1,000. This adds a link to various eBay websites to reveal exactly what these listings sold for.
+
+### Will it work on my local eBay website?
 
 This works on the following eBay websites:
 
