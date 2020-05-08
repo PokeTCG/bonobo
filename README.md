@@ -5,7 +5,7 @@ An eBay BIN/OBO best offer price revealing extension.
 
 This is available for free on the Chrome App Store: https://chrome.google.com/webstore/detail/bonobo/feapjfnajfjkpbpfamlcfkmkockngiad
 
-![https://i.imgur.com/Xhmj8qC.png](https://i.imgur.com/Xhmj8qC.png)
+> ![https://i.imgur.com/Xhmj8qC.png](https://i.imgur.com/Xhmj8qC.png)
 
 ---
 
