@@ -1,9 +1,9 @@
 # bonobo
-An eBay BIN/OBO best offer price revealing extension.
+An eBay BIN/OBO best offer price revealing extension which works on Chrome and Firefox.
 
 ---
 
-This is available for free on the Chrome App Store: https://chrome.google.com/webstore/detail/bonobo/feapjfnajfjkpbpfamlcfkmkockngiad
+This is available for free on the Chrome App Store [here](https://chrome.google.com/webstore/detail/bonobo/feapjfnajfjkpbpfamlcfkmkockngiad) and Firefox Add-Ons Store [here](https://addons.mozilla.org/en-GB/firefox/addon/bonobo-for-ebay).
 
 > ![https://i.imgur.com/Xhmj8qC.png](https://i.imgur.com/Xhmj8qC.png)
 
