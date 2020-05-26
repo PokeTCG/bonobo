@@ -18,7 +18,7 @@ function createBonoboLink(text, elemInjectParent, elemInjectBefore, itemId = 0) 
 
   const link = document.createElement('a');
   link.classList.add('bonobo-link');
-  link.href = `https://cgi.ebay.${getTLD()}/ws/eBayISAPI.dll?ViewItemVersion&item=${itemId}`;
+  link.href = `https://cgi.ebay.${getTLD()}/ws/eBayISAPI.dll?viewItem&item=${itemId}`;
   link.innerText = text;
   link.tabIndex = '0';
 

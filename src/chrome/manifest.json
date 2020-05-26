@@ -1,6 +1,6 @@
 {
   "name": "Bonobo",
-  "version": "1.0",
+  "version": "1.1",
   "description": "An eBay BIN/OBO best offer reveal tool.",
   "manifest_version": 2,
   "icons": {
@@ -31,8 +31,7 @@
     "https://*.ebay.com.tw/*",
     "https://*.ebay.co.th/*",
     "https://*.ebay.co.uk/*",
-    "https://*.ebay.vn/*",
-    "tabs"
+    "https://*.ebay.vn/*"
   ],
   "content_scripts": [{
     "matches": [
