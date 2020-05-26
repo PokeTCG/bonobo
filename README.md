@@ -1,4 +1,4 @@
-# bonobo
+# bonobo for Chrome and Firefox
 An eBay BIN/OBO best offer price revealing extension which works on Chrome and Firefox.
 
 ---
